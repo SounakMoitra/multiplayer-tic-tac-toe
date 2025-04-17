@@ -14,6 +14,7 @@ const io = new socketIO.Server(httpServer, {
   },
 });
 
+// initalizing rooms and users
 const allUsers = {};
 const allRooms = [];
 
